@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #e7fec4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.09);
+    padding: 0 0 50px 0;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.container {
+    padding-top: 10px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.cart-menu {
+    background: #83b735;
+    margin-top: 15px;
+    padding: 15px 10px;
+    display: flex;
+    gap: 114px;
+    color: #fff;
+}
+
+.product-qty {
+    width: 50px;
+    height: 25px;
+    border: 2px solid #83b735;
+    border-radius: 3px;
+    color: #83b735;
+    padding: 0 10px;
+    outline: none;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 5px 0;
+    border-bottom: 1px solid #83b735;
+}
+
+.product-info:hover {
+    background-color: #e7fec4;
+}
+
+.product-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-left: 4px;
+}
+
+.product-name {
+    margin-left: 145px;
+    width: 100px;
+    text-align: center;
+}
+
+.product-price {
+    margin-left: 85px;
+    width: 125px;
+    text-align: center;
+}
+
+.product-qty {
+    margin-left: 76px;
+}
+
+.product-sum {
+    width: 190px;
+    text-align: center;
+    margin-left: 76px;
+    font-size: 1.8rem;
+    color: #83b735;
+}
+
+.btn {
+    margin-left: 80px;
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid #83b735;
+    color: #83b735;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #83b735;
+    color: white;
+}
+
+.thanhtien {
+    margin-top: 20px;
+    margin-right: 90px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tong {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #83b735;
+}
+
+.gia {
+    font-size: 2rem;
+}
+
+.action {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+
+.btn-action {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    background: #83b735;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-action:hover {
+    opacity: 0.9;
+}
